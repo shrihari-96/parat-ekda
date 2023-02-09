@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="18" passed="8" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[I m in BBB]]>
+    </line>
+    <line>
+      <![CDATA[I m in DDD]]>
+    </line>
+    <line>
+      <![CDATA[I m in EEE]]>
+    </line>
+    <line>
+      <![CDATA[I m in FFF]]>
+    </line>
+    <line>
+      <![CDATA[I m in GGG]]>
+    </line>
+    <line>
+      <![CDATA[I m in AAA]]>
+    </line>
+    <line>
+      <![CDATA[I m in CCC]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-04T13:38:57 IST" name="Suite" finished-at="2023-01-04T13:38:57 IST" duration-ms="307">
+    <groups>
+      <group name="reg">
+        <method signature="Assert_XML.SoftAssert2()[pri:0, instance:Hari_Practice.Assert_XML@10d68fcd]" name="SoftAssert2" class="Hari_Practice.Assert_XML"/>
+        <method signature="testngpracticeTest.AAA()[pri:0, instance:Hari_Practice.testngpracticeTest@117e949d]" name="AAA" class="Hari_Practice.testngpracticeTest"/>
+        <method signature="testngpracticeTest.CCC()[pri:0, instance:Hari_Practice.testngpracticeTest@117e949d]" name="CCC" class="Hari_Practice.testngpracticeTest"/>
+      </group> <!-- reg -->
+    </groups>
+    <test started-at="2023-01-04T13:38:57 IST" name="Test1" finished-at="2023-01-04T13:38:57 IST" duration-ms="208">
+      <class name="Hari_Practice.Assert_XML">
+        <test-method signature="HardAssert1()[pri:0, instance:Hari_Practice.Assert_XML@b2c9a9c]" started-at="2023-01-04T13:38:57 IST" name="HardAssert1" finished-at="2023-01-04T13:38:57 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HardAssert1 -->
+      </class> <!-- Hari_Practice.Assert_XML -->
+      <class name="Hari_Practice.testngpracticeTest">
+        <test-method signature="BBB()[pri:0, instance:Hari_Practice.testngpracticeTest@77f1baf5]" started-at="2023-01-04T13:38:57 IST" name="BBB" finished-at="2023-01-04T13:38:57 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[I m in BBB]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BBB -->
+        <test-method signature="DDD()[pri:0, instance:Hari_Practice.testngpracticeTest@77f1baf5]" started-at="2023-01-04T13:38:57 IST" name="DDD" finished-at="2023-01-04T13:38:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[I m in DDD]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DDD -->
+        <test-method signature="EEE()[pri:0, instance:Hari_Practice.testngpracticeTest@77f1baf5]" started-at="2023-01-04T13:38:57 IST" name="EEE" finished-at="2023-01-04T13:38:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[I m in EEE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EEE -->
+        <test-method signature="FFF()[pri:0, instance:Hari_Practice.testngpracticeTest@77f1baf5]" started-at="2023-01-04T13:38:57 IST" name="FFF" finished-at="2023-01-04T13:38:57 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[I m in FFF]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FFF -->
+        <test-method signature="GGG()[pri:0, instance:Hari_Practice.testngpracticeTest@77f1baf5]" started-at="2023-01-04T13:38:57 IST" name="GGG" finished-at="2023-01-04T13:38:57 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[I m in GGG]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GGG -->
+      </class> <!-- Hari_Practice.testngpracticeTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-01-04T13:38:57 IST" name="Test2" finished-at="2023-01-04T13:38:57 IST" duration-ms="307">
+      <class name="Hari_Practice.Assert_XML">
+        <test-method signature="SoftAssert2()[pri:0, instance:Hari_Practice.Assert_XML@10d68fcd]" started-at="2023-01-04T13:38:57 IST" name="SoftAssert2" finished-at="2023-01-04T13:38:57 IST" duration-ms="132" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+xyz expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+xyz expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Hari_Practice.Assert_XML.SoftAssert2(Assert_XML.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SoftAssert2 -->
+      </class> <!-- Hari_Practice.Assert_XML -->
+      <class name="Hari_Practice.testngpracticeTest">
+        <test-method signature="AAA()[pri:0, instance:Hari_Practice.testngpracticeTest@117e949d]" started-at="2023-01-04T13:38:57 IST" name="AAA" finished-at="2023-01-04T13:38:57 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[I m in AAA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AAA -->
+        <test-method signature="CCC()[pri:0, instance:Hari_Practice.testngpracticeTest@117e949d]" started-at="2023-01-04T13:38:57 IST" name="CCC" finished-at="2023-01-04T13:38:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[I m in CCC]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CCC -->
+      </class> <!-- Hari_Practice.testngpracticeTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

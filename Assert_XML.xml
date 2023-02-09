@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="Test1" parallel="classes">
+  
+    <classes>
+    
+      <class name="Hari_Practice.Assert_XML">
+      <methods>
+      <include name="HardAssert1"></include>
+      </methods>
+      </class>
+      
+      <class name="Hari_Practice.testngpracticeTest">
+      <methods>
+      <exclude name="AAA"></exclude>
+      <!-- --><exclude name="CCC"></exclude>
+      
+      </methods>
+      </class>
+      
+    </classes>
+    
+  </test > <!-- Test -->
+  
+  <test name="Test2">
+  	<groups>
+  	<run>
+  	
+  	<include name="reg"></include>
+  	
+  	</run>
+  	</groups>
+    <classes>
+    <!--
+      <class name="Hari_Practice.Assert_XML">
+      <methods>
+      <include name="SoftAssert2"></include>
+      </methods>
+      </class>
+      
+     
+      <methods>
+      <exclude name="AAA"></exclude>
+      <exclude name="CCC"></exclude>
+      
+      </methods>
+      </class>
+       -->
+       	<class name="Hari_Practice.Assert_XML"/>
+        <class name="Hari_Practice.testngpracticeTest"/>
+    </classes>
+    
+  </test > <!-- Test -->
+</suite> <!-- Suite -->
